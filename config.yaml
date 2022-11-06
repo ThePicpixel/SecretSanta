@@ -1,0 +1,20 @@
+
+
+from:
+  address: "email@domain.com"
+  password: "password" # could be an access token if you are using gmail
+
+members:
+  - name: "member1"
+    address: "mamber1@domain.com"
+  - name: "member2"
+    address: "member2@domain.com"
+  - name: "member3"
+    address: "member3@domain.com"
+
+email:
+  subject: "This is the subject of the mail"
+  body: "This is the body of the mail and should include {PRICE}$/€/£ in order to fix a maximum price using the variable email.price"
+  price: 25
+  sent_items_folder: '"[Gmail]/Sent items"'
+
