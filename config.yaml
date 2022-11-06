@@ -14,7 +14,7 @@ members:
 
 email:
   subject: "This is the subject of the mail"
-  body: "This is the body of the mail and should include {PRICE}$/€/£ in order to fix a maximum price using the variable email.price"
+  body: "This is the body of the mail and should include {PRICE}$/€/£ in order to fix a maximum price using the variable email.price as well as a {EMAIL} as a placeholder to the randomly picked target..."
   price: 25
   sent_items_folder: '"[Gmail]/Sent items"'
 
